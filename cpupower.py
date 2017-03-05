@@ -34,7 +34,7 @@ while True:
             else:
                 raise TypeError
         elif choice2 == "2" or "3" or "4":
-            ipc = 1600
+            ipc = 16
             print("Enter your CPU clock (in MHz):")
             clock = int(input())
             print("Enter physical core count:")
