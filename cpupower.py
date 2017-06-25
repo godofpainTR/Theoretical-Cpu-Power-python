@@ -79,6 +79,7 @@ while True:
         print("5.Haswell (Core i3/5/7-4xxx series)")
         print("6.Broadwell (Core i3/5/7-5xxx series)")
         print("7.Skylake or Kaby Lake (Core i3/5/7-6xxx or 7xxx series)")
+        print("8.Intel Atom")
         choice5 = input()
         if choice5 == "1":
             ipcs = 8
