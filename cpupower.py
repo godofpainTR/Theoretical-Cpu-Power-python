@@ -42,7 +42,7 @@ while True:
                 break
             else:
                 raise TypeError
-        elif choice2 == "2" or "3" or "4":
+        elif (choice2 == "2") or (choice2 == "3") or (choice2 == "4"):
             ipcs = 8
             ipcd = int(ipcs / 2)
             MIPSF()
@@ -133,7 +133,7 @@ while True:
                 break
             else:
                 raise TypeError
-        elif choice5 == "5" or "6" or "7":
+        elif (choice5 == "5") or (choice5 == "6") or (choice5 == "7"):
             ipcs = 32
             ipcd = int(ipcs / 2)
             MIPSF()
